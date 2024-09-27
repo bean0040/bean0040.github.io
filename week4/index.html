@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 4</title>
+    </head>
+    <body>
+        <header>
+            <h1>Week 4</h1>
+        </header>
+        <main>
+            <!-- learning about img tag -->
+            <h2>Image tag example</h2>
+            <!-- immage is decorative keep the alt tag empty alt="" -->
+            <img src="./images/coffee-shop.jpg" alt="coffee cup with coffee beans" width="500">
+            <img src="./images/coffee-shop.jpg" title="coffee cup with coffee beans" width="500">
+            <!-- leaning about a tag -->
+            <h2>Link tag example</h2>
+            <p>Here is a link to visit <a href="https://www.google.com" target="_blank">Google Homepage</a>.</p>
+
+            <p><a href="./thanks.html">Thank you page</a></p>
+            
+            <p><a href="#cakes">Jump to cake menu</a></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, esse. Perferendis nihil quasi eos at odio temporibus ab, est suscipit praesentium doloremque aliquam error magnam, nobis adipisci minus numquam assumenda?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolor consequuntur at culpa placeat enim odit non molestias iusto vitae! Repellendus mollitia obcaecati ipsam totam numquam ipsa itaque quo vero!</p>
+            <ul id="cakes">
+                <li>Red Velvet</li>
+                <li>Tiramisu</li>
+            </ul>
+            <!-- Table in HTML -->
+             <h2>Simple HTML Table</h2>
+             <table border="1">
+                <caption>Student Grades</caption>
+                <thead>
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Course Name</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>Web Dev 1</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Mel</td>
+                        <td>Web Dev 2</td>
+                        <td>A+</td>
+                    </tr>
+                </tbody>
+             </table>
+             <table border="1">
+                <caption>Student Grades</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Names</th>
+                        <th colspan="2">Scores</th>
+                    </tr>
+                    <tr>
+                        <th>Math</th>
+                        <th>English</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+             </table>
+
+             <table border="1">
+                <caption>Calendar</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">Week Day</th>
+                        <th colspan="2">Month</th>
+                    </tr>
+                    <tr>
+                        <th>Mon</th>
+                        <th>Wed</th>
+                        <th>Jan</th>
+                        <th>May</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+             </table>
+             <!-- form elements -->
+              <h2>Form Elements</h2>
+              <form action="./thanks.html" method="get">
+                <label for="fullname">Name</label>
+                <input id="fullname" type="text" name="fullname" placeholder="John Doe" 
+                value="Mr.">
+
+                <label for="quantity">Quantity</label>    
+                <input id="quantity" type="number" name="quantity" min="0" max="20" step="2">
+
+                <label for="userEmail">Email</label>
+                <input id="userEmail" type="email" name="email" required>
+                <!-- dropdown -->
+                <label for="rock">Choose your rock</label>
+                <select id="rock" name="rock">
+                    <option value="mars">Mars</option>
+                    <option value="human">Earth</option>
+                    <option value="venus">Venus</option>
+                </select>
+                <!-- radio button -->
+                <label for="little">0-1</label>
+                <input type="radio" id="little" name="musictime" value="0-1">
+                <label for="some">2-3</label>
+                <input type="radio" id="some" name="musictime" value="2-3" checked>
+                <label for="alot">4-5</label>
+                <input type="radio" id="alot" name="musictime" value="4-5">
+                <label for="alotmore">6-8</label>
+                <input type="radio" id="alotmore" name="musictime" value="6-8">
+
+                <button type="submit">Send</button>
+              </form>
+
+        </main>
+    </body>
+</html>
