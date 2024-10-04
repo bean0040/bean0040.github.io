@@ -1,0 +1,76 @@
+header{
+    background-color: blueviolet;
+    padding: 1rem;
+    margin: 5rem;
+}
+h1{
+    color: pink;
+}
+/* this is a demo comment */
+/* target h1 h2 h3 */
+h1, h2, h3 {
+    /* border: 1px solid green; */
+    text-decoration: underline;
+}
+/* target all paragraphs on the page */
+p{
+    font-weight: 600;
+}
+/* target paragraphs within a div */    
+div p{
+    font-weight: 200;
+}
+#test{
+    background-color: aqua;
+}
+/* when targetting a class we need . */
+.highlight{
+    background-color: gold;
+}
+.goals{
+    color:rgb(89, 9, 219);
+    background-color: hotpink;
+}
+
+/* when targetting an id # */
+#explain{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+li:nth-child(odd){
+    background-color: darkslategrey;
+}
+/* 2n+1 */
+li:nth-child(even){
+    background-color: lightgray;
+}
+li:nth-child(3){
+    background-color: greenyellow;
+}
+
+a{
+    font-size: 20px;
+}
+
+a[href="https://algonquincollege.com"]{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    color:blue;
+}
+span{
+    color:red;
+}
+/* forces the span to inherit the colour from the parent */
+span{
+    color:inherit;
+}
+/* resets to browser default */
+span{
+    color:initial; 
+}
+span{
+    color:unset;
+}
