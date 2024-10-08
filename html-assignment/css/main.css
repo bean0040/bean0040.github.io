@@ -1,0 +1,43 @@
+body{
+    font-size: 18;
+    font-family: Georgia, serif;
+}
+
+header, footer{
+    background-color: blueviolet;
+}
+
+.site-title{
+    color:paleturquoise;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul{
+    list-style-type: square;
+}
+
+li:nth-child(odd){
+    background-color: pink;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: aqua;
+    border: 2px solid;
+}
+
+a:visited{
+    text-decoration: none;
+    border: 2px solid;
+}
+
+a:hover{
+    background-color: goldenrod;
+}
+
+a:focus{
+    background-color: goldenrod;
+}
