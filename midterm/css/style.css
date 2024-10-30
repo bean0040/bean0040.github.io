@@ -1,0 +1,165 @@
+
+/* change entire website background colour to #aad4cf */
+body{
+    background-color: #aad4cf;
+    width: 80%;
+    margin: 0 auto;
+    /* set all text font */
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+/* change background colour of all content on page to #d8ece4 */
+main{
+    background-color: #d8ece4;
+    overflow: hidden;
+}
+/* make all header elements centered and add margin */
+.siteheader{
+    position: relative;
+    margin: 0 auto;
+}
+
+#starfish-wide{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* set style of h1 */
+h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+/* set position of h1 */
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+/* set style of links to black */
+a:link {
+    text-decoration: none;
+    color: black
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+    
+/* add background colour and style text in navigation*/
+.topnav{
+    background-color: #d8ece4;
+    overflow: hidden;
+    font-size: 2rem;
+}
+/* style the links in navigation */
+.topnav a{
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    width: 32%;
+    padding: 10px;
+    
+}
+/* add grey line inbetween navgiation blocks */
+.topnav a ~ a{
+    border-left: 2px solid gray;
+    position: relative;
+    top: 5px;
+}
+
+  /* change style of h2 */
+  h2{
+    font-size: 36px;
+    font-weight: 200;
+    padding: 30px 10px;
+    clear: left;
+  }
+
+  /* change size  and position of starfish img */
+  #starfish{
+    float: left;
+    width: 20%;
+    position: relative;
+    left: 10px;
+  }
+
+  /* style body text of starfish life */
+.lifetext{
+    line-height: 1.5rem;
+    margin-left: 23%;
+}
+
+/* add dots and style list of facts */
+
+ul{
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+/* add border to form */
+form{
+    border: 2px solid black;
+    padding: 40px 10px;
+    margin: 5px 10px;
+
+}
+
+/* style elements inside form */
+#fullname{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+#useremail{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+#message{
+    width: 100%;
+    padding: 50px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+/* style visit starfish text */
+h3{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+/* style submit button in form */
+button {
+    background-color: #d8ece4;
+    border: 2px solid black;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+ /* position submit button in form */
+ button{
+    position: relative;
+    display: block;
+    bottom: -20px;
+ }
+
+/* set footer background and position to bottom right */
+footer{
+    background-color: #d8ece4;
+    text-align: end;
+    padding: 30px 10px;
+    margin-bottom: 10px;
+}
