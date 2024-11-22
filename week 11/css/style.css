@@ -98,6 +98,26 @@ header{
     padding: 2em 0;
 }
 
+nav ul li{
+    background-color: rgb(7, 14, 32);
+    text-align: center;
+    width: 100%;
+}
+
+nav a,
+nav a:link,
+nav a:visited{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    padding: 1em 0;
+}
+
+nav a:hover,
+nav a:focus{
+    background-color: rgb(18, 59, 45);
+}
+
 /* card styles */
 .card{
     border: 2px solid #00add8;
@@ -120,11 +140,46 @@ header{
     margin-top: 4em;
 }
 
+/* demo for flex-basis and flex-grow */
+.flextest div{
+    background-color: #00add8;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100px;
+    /* flex-grow: 1; */
+
+}
+
+.flextest{
+    width: 500px;
+    display: flex;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+
+.flex1{
+    flex-basis: 100%;
+}
+
+.flex2, .flex3{
+    flex-grow: 1;
+}
+
+
+
 /* Desktop styles */
 @media screen and (min-width: 800px){
     html{
         font-size: 16px;
     }
+
+    nav ul{
+        display: flex; 
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+
+
     .cards{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
