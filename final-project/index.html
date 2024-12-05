@@ -16,7 +16,7 @@
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li>
-                    <label for="search"></label>
+                    <label for="search">Search</label>
                     <input type="text" id="search" placeholder="Search" name="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </li>
@@ -84,14 +84,18 @@
         <article class="team" id="team">
             <div class="slides">
             <h2>Our Team</h2>
+                <div class="john">
                 <img src="./images/john.jpg" alt="">
                 <h3>John Doe</h3>
                     <h4>CEO and Co-owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam aperiam, consequuntur laboriosam, architecto eveniet sunt suscipit vitae fugiat hic corporis amet ipsum tempora cupiditate, modi minus tempore sed quidem?</p>
-                    <img src="./images/bob.jpg" alt="">
+                </div>
+                <div class="bob">
+                <img src="./images/bob.jpg" alt="">
                 <h3>Bob Rite</h3>
                     <h4>CFO and Co-owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam aperiam, consequuntur laboriosam, architecto eveniet sunt suscipit vitae fugiat hic corporis amet ipsum tempora cupiditate, modi minus tempore sed quidem?</p>
+                </div>
             </div>
         </article>
         <!-- closing the Our Team article -->
@@ -115,12 +119,24 @@
                 <div class="hours">
                     <h3>Hours of operation</h3>
                     <div class="table">
-                        <p>Days</p>
-                        <p>Monday - Friday</p>
-                        <p>Saturday - Sunday</p>
-                        <p>Hours</p>
-                        <p>9 AM - 6 PM</p>
-                        <p>Closed</p>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th colspan="3">Days</th>
+                                    <th colspan="2">Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="3">Monday - Friday</td>
+                                    <td colspan="2">9 AM - 6 PM</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Saturday - Sunday</td>
+                                    <td colspan="2">Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div> <!-- closing the hours div -->
                 <div class="location">
